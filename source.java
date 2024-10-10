@@ -9,7 +9,7 @@ public class source {
             System.out.print("Please type the score of the paper.");
             String output = myObj.nextLine();
             try {
-                int number = Integer.valueOf(output);
+                double number = Double.valueOf(output);
                 if(number < 5.5) {
                     System.out.println("Whoever got this has less than a 50. Please tell them to study more.");
                 } else if(number < 6.5) {
